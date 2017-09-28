@@ -1,0 +1,17 @@
+{
+    "name": "sippaprut-pc/stripe",
+    "authors": [
+        {
+            "name": "Sippaprut",
+            "email": "sippaprut@turkenterprisesinc.com"
+        }
+    ],
+    "require": {
+        "stripe/stripe-php": "^5.2"
+    } ,
+     "autoload": {
+        "classmap": [
+            "drivers/Stripe_driver.php" ,
+        ]
+    }
+}
