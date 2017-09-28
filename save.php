@@ -1,6 +1,7 @@
 <?php 
           error_reporting(E_ALL);
 include_once('vendor/autoload.php');
+include( 'config.php' ); 
 
 $payment = new Stripe_driver;
 
