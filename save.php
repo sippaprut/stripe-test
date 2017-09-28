@@ -12,10 +12,10 @@ $payment->submit_token = $_POST['stripeToken'];
 $payment->submit_email = $_POST['stripeEmail'];
 
 
-$is_approved = $payment->process( get_charge_amount() );
+$is_approved = $payment->process( 999 );
 
 
-print_r($payment->getOrder());
+print_r($payment->get_order());
 
 // $charge_info = array(
 //     'is_approved' => $is_approved,
