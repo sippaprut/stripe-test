@@ -7,7 +7,9 @@
 <body>
 	
 	<?php include( 'config.php' ); ?>
-
+	<?php 
+	print_r($config);
+	?>
 
 	<form action="save.php" method="POST">
 	  <script
